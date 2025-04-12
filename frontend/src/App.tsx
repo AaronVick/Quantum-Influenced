@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import './App.css';
-import QueryInterface from './components/query-interface';
-import SimulationResults from './components/SimulationResults';
-import ConsciousStateInput from './components/ConsciousStateInput';
-import ConstraintAnalysis from './components/ConstraintAnalysis';
-import ImportAnalysis from './components/ImportAnalysis';
-import LandingPage from './components/LandingPage';
-import ModelingAdmin from './components/ModelingAdmin';
+import { 
+  QueryInterface, 
+  SimulationResults, 
+  ConsciousStateInput, 
+  ConstraintAnalysis, 
+  ImportAnalysis, 
+  LandingPage, 
+  ModelingAdmin 
+} from './components';
 import { simulateQuantumInteraction, SimulationResponse } from './services/api';
 import styled from 'styled-components';
 
