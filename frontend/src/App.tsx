@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import './App.css';
-import QueryInterface from './components/QueryInterface';
+import QueryInterface from './components/query-interface';
 import SimulationResults from './components/SimulationResults';
 import ConsciousStateInput from './components/ConsciousStateInput';
 import ConstraintAnalysis from './components/ConstraintAnalysis';
