@@ -1,0 +1,16 @@
+{
+  "name": "consciousness-quantum-simulator",
+  "version": "1.0.0",
+  "description": "A web application that simulates and tests the theoretical framework for consciousness-quantum interactions",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd frontend && npm start",
+    "build": "cd frontend && npm run build",
+    "install": "cd frontend && npm install"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "author": "",
+  "license": "MIT"
+} 
